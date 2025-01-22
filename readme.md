@@ -1,14 +1,6 @@
-### WELCOME TO ASSIGNMENT-002
 
 # <img width=30 src="./assets/logo.png"/> Kids-School
 
-## **📅 Deadline For 60 marks**: 22th January , 2025 ( 11:59 pm ⏱️)
-
-## **📅 Deadline For 50 marks**: 23th January , 2025 ( 11:59 pm ⏱️)
-
-**📅 Deadline For 30 marks**: Any time after 23th January.
-
-## Requirements (50)
 
 ### 1. Navbar
 
@@ -68,8 +60,6 @@
 
 ---
 
-## Challenges
-
 ### Positioning & Data Hiding
 
 - show the date by positioning between image and context as figma on every cards
@@ -85,14 +75,6 @@
 - HTML & CSS only
 - You can't use any other technology / Framework.
 
----
-
-# What to Submit
-
-- Your Github Repository . ex.("https://github.com/Repo-name")
-- Your Live Link. ex.(https://user.github.io/Repo-name/)
-
----
 
 # Design for Large Device
 
