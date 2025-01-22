@@ -227,6 +227,20 @@
 
 /* middle section design end*/
 
+ /* marqueen start */
+
+ .marq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.geek1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(31, 3, 3);
+}
+/* marqueen end*/
+
 /* stories section start */
 
 .stories {
