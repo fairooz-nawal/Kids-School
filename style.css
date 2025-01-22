@@ -10,8 +10,8 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-  }
-  
+}
+
 /* frequently used items start*/
 .width {
     max-width: 1440px;
@@ -41,6 +41,18 @@
     background: rgb(254, 163, 1);
 }
 
+.secondary-bg {
+    background: #3CD8E8;
+}
+
+.tertiary-bg {
+    background: #95B226;
+}
+
+.quartile-bg {
+    background: rgb(93, 88, 240);
+}
+
 .btn {
     border-radius: 12px;
     padding: 10px;
@@ -53,12 +65,13 @@
 .card-heading {
     color: rgb(32, 32, 32);
     font-size: 24.52px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .card-text {
     font-size: 15.09px;
     font-weight: 500;
+    line-height: 28.76px;
 }
 
 .section-heading {
@@ -66,10 +79,10 @@
     font-size: 46px;
     font-weight: 300;
     text-align: center;
-    margin:60px auto;
+    margin: 60px auto;
 }
 
-.next-button{
+.next-button {
     width: 140px;
     margin: 80px auto;
 }
@@ -163,6 +176,7 @@
 .middle {
     background: url("./assets/bg.png");
 }
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -198,7 +212,7 @@
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
-.card>a{
+.card>a {
     text-decoration: none;
 }
 
@@ -206,12 +220,111 @@
     color: rgb(135, 0, 255);
 }
 
-.button-img>img:hover{
+.button-img>img:hover {
     cursor: pointer;
     background: rgb(99, 74, 31);
 }
 
 /* middle section design end*/
+
+/* stories section start */
+
+.stories {
+    background: url("./assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+.stories-main-container{
+    padding: 20px;
+}
+
+.story-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 100px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.story {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.story-img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    box-sizing: border-box;
+}
+
+.story-img>img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.stories-content {
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    padding: 0px 30px 20px 40px;
+}
+
+#story-button {
+    position: absolute;
+    bottom: 220px;
+    left: 60px;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 14px 18px;
+}
+
+.story-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story-container-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.story-img-mini {
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.story-img-mini>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#mini-button {
+    position: absolute;
+    bottom: 90px;
+    left: 30px;
+    border-radius: 40px;
+    padding: 8px 8px;
+    font-size: 14px;
+}
+
+.view{
+    width: 200px;
+    margin: 90px auto; 
+}
+
+#viewall{
+    background: black;
+    color: white;
+}
+
+/* stories section end */
+
 
 
 /* responsive start */
@@ -268,22 +381,71 @@
     /* banner end */
 
     /* middle section design start */
-    .card-container{
+    .card-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
-        row-gap:20px;
+        row-gap: 20px;
     }
-    .middle>h1{
+
+    .middle>h1 {
         margin: 20px 0;
         font-size: 26px;
         font-weight: 500;
     }
 
-    .next-button{
-        display:none;
+    .next-button {
+        display: none;
     }
 
     /* middle section design end */
+
+    /* stories section start */
+    .stories-main-container {
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .story-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5px;
+        margin: 0px auto;
+    }
+
+    #story-1 {
+        display: none;
+    }
+
+    .story-img-mini {
+        height: 120px;
+        width: 100%;
+    }
+
+    .story-img>img {
+        height: 70%;
+    }
+
+    .stories-content{
+        height: 100px;
+        padding: 5px;
+    }
+    .stories-content>h1{
+        font-size: 11px;
+    }
+
+    #mini-button {
+        
+        width: 150px;
+        height: 25px;
+        top: 100px;
+        left: 10px;
+        font-size: 11px;
+
+    }
+
+
+
+    /* stories section end */
 }
 
 /* responsive end */
